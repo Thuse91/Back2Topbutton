@@ -1,0 +1,31 @@
+
+html,body{
+    height: 3000px;
+}
+
+.to-top {
+    border: 2px solid black;
+    padding: 20px 15px;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom:32px;
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+    text-decoration: none;
+    transition: 0.15s opacity;
+
+    
+}
+
+.to-top.active {
+    border: 2px solid black;
+    padding: 20px 15px;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    opacity: 1;
+    bottom: 32px;
+    pointer-events: auto;
+}
